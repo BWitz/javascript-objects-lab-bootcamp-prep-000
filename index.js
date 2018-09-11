@@ -16,4 +16,4 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   return recipes;
 }
 
-destructivelyUpdateObjectWithKeyAndValue(recipes, 'tools', 'spatula');
+destructivelyUpdateObjectWithKeyAndValue(recipes, 'prop', '1');
