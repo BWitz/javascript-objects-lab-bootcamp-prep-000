@@ -33,6 +33,6 @@ function deleteFromObjectByKey(object, key) {
 
 function destructivelyDeleteFromObjectByKey(object, key) {
   delete recipes.prop;
-  recipes.prop = undefined;
+  recipes.prop;
   return recipes;
 }
