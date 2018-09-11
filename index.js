@@ -36,6 +36,4 @@ function destructivelyDeleteFromObjectByKey(object, key) {
   return recipes;
 }
 
-destructivelyDeleteFromObjectByKey(recipes, 'prop');
-
-recipes;
+destructivelyDeleteFromObjectByKey(recipes, '1');
