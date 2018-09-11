@@ -24,7 +24,7 @@ function deleteFromObjectByKey(object, key) {
       prop : 1,
       prop2 : 2
   }
-  var newRecipes = Object.assign({prop, recipes})
+  var newRecipes = Object.assign({prop}, recipes)
   
   newRecipes;
   
