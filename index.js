@@ -10,6 +10,6 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
-  delete ingredients;
+  delete recipes.ingredients;
   return recipes;
 }
