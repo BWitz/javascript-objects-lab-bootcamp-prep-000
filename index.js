@@ -22,9 +22,9 @@ function deleteFromObjectByKey(object, key) {
   
   var recipes = {
       prop : 1
-  }
+  };
   
-  var newRecipes = Object.assign({}, recipes)
+  var newRecipes = Object.assign({}, recipes);
   
   delete newRecipes.prop;
   
@@ -33,5 +33,5 @@ function deleteFromObjectByKey(object, key) {
 
 function destructivelyDeleteFromObjectByKey(object, key) {
   delete recipes.prop;
-  return recipes
+  return recipes;
 }
