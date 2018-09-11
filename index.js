@@ -15,6 +15,4 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   return recipes;
 }
 
-const recipes = { ingredients: 'flour'}
-
 destructivelyUpdateObjectWithKeyAndValue(recipes, 'tools', 'spatula');
