@@ -24,4 +24,4 @@ function deleteFromObjectByKey(object, key) {
   return object;
 }
 
-deleteFromObjectByKey();
+deleteFromObjectByKey(recipes.prop);
