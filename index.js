@@ -1,2 +1,3 @@
-var recipes = {};
-
+var recipes = {
+  pasta: "Ben"
+};
