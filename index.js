@@ -24,4 +24,4 @@ function deleteFromObjectsByKey(object, key) {
   return object;
 }
 
-deleteFromObjectByKey();
+deleteFromObjectsByKey();
