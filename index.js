@@ -15,3 +15,4 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 
 const recipes = { eggs: 3}
 
+destructivelyUpdateObjectWithKeyAndValue(recipes, )
