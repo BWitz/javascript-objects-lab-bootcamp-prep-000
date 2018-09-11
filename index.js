@@ -11,6 +11,8 @@ function updateObjectWithKeyAndValue(object, key, value) {
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   recipes.tools = "spatula"
+  
+  return recipes;
 }
 
 const recipes = { 'tools' : '3'}
