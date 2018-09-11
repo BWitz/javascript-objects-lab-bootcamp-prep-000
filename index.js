@@ -36,4 +36,4 @@ function destructivelyDeleteFromObjectByKey(object, key) {
   return recipes;
 }
 
-destructivelyDeleteFromObjectByKey(recipes, '1');
+destructivelyDeleteFromObjectByKey(recipes, '
