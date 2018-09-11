@@ -32,7 +32,7 @@ function deleteFromObjectByKey(object, key) {
 }
 
 function destructivelyDeleteFromObjectByKey(object, key) {
-  delete recipes.prop;
-  recipes.prop;
+ recipes.prop;
+ delete recipes.prop;
   return recipes;
 }
