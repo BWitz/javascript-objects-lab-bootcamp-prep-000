@@ -38,4 +38,4 @@ function destructivelyDeleteFromObjectByKey(object, key) {
 
 destructivelyDeleteFromObjectByKey(recipes, 'prop');
 
-recipes[1];
+recipes;
